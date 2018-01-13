@@ -1,5 +1,12 @@
-# docker-notebook
-JHU Data Science Jupyter Notebook Docker image
+![docker pulls](https://img.shields.io/docker/pulls/jhudatascience/docker-notebook.svg)
+![docker stars](https://img.shields.io/docker/stars/jhudatascience/docker-notebook.svg)
+![build status](https://img.shields.io/docker/build/jhudatascience/docker-notebook.svg)
+![image size](https://img.shields.io/imagelayers/jhudatascience/docker-notebook.svg)
+![image layers](https://img.shields.io/imagelayers/jhudatascience/docker-notebook.svg)
+
+# JHU Data Science Jupyter Notebook Docker image
+
+https://store.docker.com/community/images/jhudatascience/docker-notebook
 
 ## Quick start
 
