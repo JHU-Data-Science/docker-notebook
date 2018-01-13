@@ -3,6 +3,6 @@ services:
   notebook:
     image: jhudatascience/docker-notebook
     volumes:
-      - "PWD":/home/jovyan/work
+      - "$PWD":/home/jovyan/work
     ports:
       - 8888:8888
