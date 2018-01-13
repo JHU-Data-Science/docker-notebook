@@ -4,7 +4,14 @@ JHU Data Science Jupyter Notebook Docker image
 ## Quick start
 
 ```
+# basic startup
 docker run -it --rm -p 8888:8888 jhudatascience/docker-notebook
+
+# mount a local directory into the container
+docker run -it --rm -p 8888:8888 -v $PWD:/home/jovyan/work jhudatascience/docker-notebook
+
+# or via docker-compose
+docker-compose up
 ```
 
 ## Getting started
